@@ -1,3 +1,5 @@
+const i18n = require('LanguageData');
+
 cc.Class({
     extends: cc.Component,
 
@@ -5,14 +7,13 @@ cc.Class({
         label: {
             default: null,
             type: cc.Label
-        },
-        // defaults, set visually when attaching this script to the Canvas
-        text: 'Hello, World!'
+        }
     },
 
     // use this for initialization
     onLoad: function () {
-        this.label.string = this.text;
+        i18n.init('en');
+        this.label.string = i18n.t('label.hello');
     },
 
     // called every frame
