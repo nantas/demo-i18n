@@ -131,7 +131,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 173.46,
+      "width": 120,
       "height": 40
     },
     "_children": [],
@@ -178,7 +178,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
-    "_N$string": "Goodbye!",
+    "_N$string": "你好！",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$overflow": 0
@@ -191,7 +191,7 @@
       "__id__": 3
     },
     "_enabled": true,
-    "_dataID": "label.bye"
+    "_dataID": "label.hello"
   },
   {
     "__type__": "cc.Node",
@@ -216,8 +216,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 141,
-      "height": 45
+      "width": 82,
+      "height": 47
     },
     "_children": [],
     "_rotationX": 0,
@@ -256,6 +256,9 @@
       "__id__": 6
     },
     "_enabled": true,
+    "_spriteFrame": {
+      "__uuid__": "89fffe72-3788-43a7-bc5b-97dd8f1c0caa"
+    },
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,

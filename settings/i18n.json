@@ -1,7 +1,7 @@
 {
-  "default_language": "en",
+  "default_language": "zh",
   "languages": [
-    "en",
-    "zh"
+    "zh",
+    "en"
   ]
 }

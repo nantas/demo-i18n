@@ -1,5 +1,12 @@
 {
+  "appKey": "",
+  "appSecret": "",
   "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "oauthLoginServer": "",
   "orientation": {
     "landscapeLeft": true,
     "landscapeRight": true,
@@ -7,7 +14,11 @@
     "upsideDown": false
   },
   "packageName": "org.cocos2d.helloworld",
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "1b1d7d36-5330-4bd5-b3f4-95a2982e1e2e",
   "title": "hello_world",
-  "webOrientation": "auto"
+  "webOrientation": "auto",
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false
 }
